@@ -24,13 +24,13 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/frostmarchesan/CircleLoadingViewPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'frostmarchesan' => '55881881+frostmarchesan@users.noreply.github.com' }
+  s.author           = { 'frostmarchesan' => 'marcelomarchesan@gmail.com' }
   s.source           = { :git => 'https://github.com/frostmarchesan/CircleLoadingViewPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'CircleLoadingViewPod/Classes/**/*'
+  s.source_files = 'CircleLoadingViewPod/Source/**/*'
   s.swift_version = '5.0'
   s.platforms = {
       "ios": "12.0"
