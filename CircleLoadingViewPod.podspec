@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CircleLoadingViewPod'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A pod called CircleLoadingViewPod to help implement a rotating loading view.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 "A simple and experiment pod to implement a rotating loading view. It allows users to configure the number of lines, their size, their thickness, speed of rotation and color."
                     DESC
 
-  s.homepage         = 'https://github.com/frostmarchesan/CircleLoadingViewPod'
+  s.homepage         = 'https://github.com/frostmarchesan/CircleLoadingView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'frostmarchesan' => 'marcelomarchesan@gmail.com' }
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'CircleLoadingViewPod/Source/**/*'
+  s.source_files = 'CircleLoadingViewPod/Source/*.swift'
   s.swift_version = '5.0'
   s.platforms = {
       "ios": "12.0"

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		276D34B8B32004FB2EEEC1489934E1B6 /* Pods-CircleLoadingViewPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8DE64C1AFB0CCB4DB2B5FBA13B5F430 /* Pods-CircleLoadingViewPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27E9E5FBA0D8211CB55B345713706D97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2E1DE7BE274EB33C00DBC8CA /* CircleLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1DE7BD274EB33C00DBC8CA /* CircleLoadingView.swift */; };
+		2E1DE7C0274EC5B900DBC8CA /* CircleLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1DE7BF274EC5B900DBC8CA /* CircleLoadingView.swift */; };
 		3417CBBC774BB8206202E49F1AA8BC75 /* Pods-CircleLoadingViewPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB617259BACC61BD121C99FB9656F703 /* Pods-CircleLoadingViewPod_Example-dummy.m */; };
 		3EA99B526250FEB83FC5AEB4F2B11908 /* Pods-CircleLoadingViewPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD760A407056854F85CE4FB221E09D7 /* Pods-CircleLoadingViewPod_Tests-dummy.m */; };
 		67F1ECD307B1873F0BF4AEE0242F3A5B /* CircleLoadingViewPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31618B3D1278946EF21B2938384551D2 /* CircleLoadingViewPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,7 +47,7 @@
 		1F3C95F743DFD62E1515DF81E652123D /* CircleLoadingViewPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircleLoadingViewPod.modulemap; sourceTree = "<group>"; };
 		2455A1AE231B5525C32D5C101731E2A3 /* CircleLoadingViewPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircleLoadingViewPod-Info.plist"; sourceTree = "<group>"; };
 		24700765F014E523B3F81935A87D36DB /* Pods-CircleLoadingViewPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CircleLoadingViewPod_Example.modulemap"; sourceTree = "<group>"; };
-		2E1DE7BD274EB33C00DBC8CA /* CircleLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoadingView.swift; sourceTree = "<group>"; };
+		2E1DE7BF274EC5B900DBC8CA /* CircleLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleLoadingView.swift; path = ../CircleLoadingViewPod/Source/CircleLoadingView.swift; sourceTree = "<group>"; };
 		31618B3D1278946EF21B2938384551D2 /* CircleLoadingViewPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleLoadingViewPod-umbrella.h"; sourceTree = "<group>"; };
 		4586DCE37231B5FC772BBFE36697E65E /* Pods-CircleLoadingViewPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleLoadingViewPod_Example-Info.plist"; sourceTree = "<group>"; };
 		47ADB9BAF90CE59287ECEE787768BD20 /* Pods-CircleLoadingViewPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleLoadingViewPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		2E1DE7BC274EB32D00DBC8CA /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				2E1DE7BD274EB33C00DBC8CA /* CircleLoadingView.swift */,
+				2E1DE7BF274EC5B900DBC8CA /* CircleLoadingView.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -388,8 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1DE7C0274EC5B900DBC8CA /* CircleLoadingView.swift in Sources */,
 				9F6F2936B42927A069E7C80CE8498079 /* CircleLoadingViewPod-dummy.m in Sources */,
-				2E1DE7BE274EB33C00DBC8CA /* CircleLoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
