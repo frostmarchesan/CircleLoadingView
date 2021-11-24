@@ -53,7 +53,7 @@
 		47ADB9BAF90CE59287ECEE787768BD20 /* Pods-CircleLoadingViewPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CircleLoadingViewPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6BD760A407056854F85CE4FB221E09D7 /* Pods-CircleLoadingViewPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CircleLoadingViewPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7FCC766625B03C0F27213043ED785831 /* Pods-CircleLoadingViewPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CircleLoadingViewPod_Tests"; path = Pods_CircleLoadingViewPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCC766625B03C0F27213043ED785831 /* Pods_CircleLoadingViewPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircleLoadingViewPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		872123C96F9A02FC91A472EEBECF55A0 /* Pods-CircleLoadingViewPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CircleLoadingViewPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A376D2E8695A758DCF4D1EB50A497E31 /* Pods-CircleLoadingViewPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleLoadingViewPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		AD52A3B2F153DFD3B19A8084E42509AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C9C35EE0AB9110C7706623C5F0F15091 /* CircleLoadingViewPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleLoadingViewPod.debug.xcconfig; sourceTree = "<group>"; };
 		CC610F78BEF4811FA893A3F50957CF0B /* Pods-CircleLoadingViewPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CircleLoadingViewPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D2D7D84E28D7D01A5960E21917D0A718 /* Pods-CircleLoadingViewPod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CircleLoadingViewPod_Example"; path = Pods_CircleLoadingViewPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D7D84E28D7D01A5960E21917D0A718 /* Pods_CircleLoadingViewPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircleLoadingViewPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DE64C1AFB0CCB4DB2B5FBA13B5F430 /* Pods-CircleLoadingViewPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CircleLoadingViewPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E1E797DA5946CDB000E3FACA9CDDDE3E /* CircleLoadingViewPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CircleLoadingViewPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EE7D0F9118B97999F30E231D9E176F02 /* Pods-CircleLoadingViewPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CircleLoadingViewPod_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -144,8 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				0EFAFA99B842A833383F7630329E9237 /* CircleLoadingViewPod.framework */,
-				D2D7D84E28D7D01A5960E21917D0A718 /* Pods-CircleLoadingViewPod_Example */,
-				7FCC766625B03C0F27213043ED785831 /* Pods-CircleLoadingViewPod_Tests */,
+				D2D7D84E28D7D01A5960E21917D0A718 /* Pods_CircleLoadingViewPod_Example.framework */,
+				7FCC766625B03C0F27213043ED785831 /* Pods_CircleLoadingViewPod_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			);
 			name = "Pods-CircleLoadingViewPod_Tests";
 			productName = Pods_CircleLoadingViewPod_Tests;
-			productReference = 7FCC766625B03C0F27213043ED785831 /* Pods-CircleLoadingViewPod_Tests */;
+			productReference = 7FCC766625B03C0F27213043ED785831 /* Pods_CircleLoadingViewPod_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4FBA14554911E02BD5A77BA275CAFCDA /* Pods-CircleLoadingViewPod_Example */ = {
@@ -296,7 +296,7 @@
 			);
 			name = "Pods-CircleLoadingViewPod_Example";
 			productName = Pods_CircleLoadingViewPod_Example;
-			productReference = D2D7D84E28D7D01A5960E21917D0A718 /* Pods-CircleLoadingViewPod_Example */;
+			productReference = D2D7D84E28D7D01A5960E21917D0A718 /* Pods_CircleLoadingViewPod_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7F2C6BF4548FE4D0526844BF2AEC1838 /* CircleLoadingViewPod */ = {
@@ -324,7 +324,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					7F2C6BF4548FE4D0526844BF2AEC1838 = {
 						LastSwiftMigration = 1310;
@@ -472,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -500,7 +500,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CircleLoadingViewPod_Example/Pods-CircleLoadingViewPod_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CircleLoadingViewPod_Example/Pods-CircleLoadingViewPod_Example.modulemap";
@@ -534,7 +534,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CircleLoadingViewPod/CircleLoadingViewPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CircleLoadingViewPod/CircleLoadingViewPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CircleLoadingViewPod/CircleLoadingViewPod.modulemap";
 				PRODUCT_MODULE_NAME = CircleLoadingViewPod;
@@ -542,7 +542,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -566,7 +566,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CircleLoadingViewPod/CircleLoadingViewPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CircleLoadingViewPod/CircleLoadingViewPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CircleLoadingViewPod/CircleLoadingViewPod.modulemap";
 				PRODUCT_MODULE_NAME = CircleLoadingViewPod;
@@ -575,7 +575,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -597,7 +597,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CircleLoadingViewPod_Tests/Pods-CircleLoadingViewPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CircleLoadingViewPod_Tests/Pods-CircleLoadingViewPod_Tests.modulemap";
@@ -629,7 +629,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CircleLoadingViewPod_Tests/Pods-CircleLoadingViewPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CircleLoadingViewPod_Tests/Pods-CircleLoadingViewPod_Tests.modulemap";
@@ -662,7 +662,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CircleLoadingViewPod_Example/Pods-CircleLoadingViewPod_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CircleLoadingViewPod_Example/Pods-CircleLoadingViewPod_Example.modulemap";
@@ -729,7 +729,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

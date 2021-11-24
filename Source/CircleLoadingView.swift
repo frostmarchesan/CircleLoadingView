@@ -7,10 +7,9 @@
 
 import UIKit
 
-class CircleLoadingView: UIView {
+public class CircleLoadingView: UIView {
     
     let spinningCircle = CAShapeLayer()
-    
     private var isRotatingFinished = false
     
     public func configureFrame(frame: CGRect) {
@@ -18,11 +17,12 @@ class CircleLoadingView: UIView {
     }
     
     public func configureShape(lineColor: CGColor = UIColor.blue.cgColor, lineWidth: CGFloat = 8, strokeStart: CGFloat = 0, strokeEnd: CGFloat = 0.25, speed: Double) {
+        isRotatingFinished = false
         let rect = self.bounds
         let circularPath = UIBezierPath(ovalIn: rect)
         spinningCircle.path = circularPath.cgPath
         spinningCircle.fillColor = UIColor.clear.cgColor
-//        spinningCircle.lineCap = .round
+        spinningCircle.lineCap = .round
         spinningCircle.strokeColor = lineColor
         spinningCircle.lineWidth = lineWidth
         spinningCircle.strokeStart = strokeStart
