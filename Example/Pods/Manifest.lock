@@ -1,0 +1,16 @@
+PODS:
+  - CircleLoadingViewPod (0.1.0)
+
+DEPENDENCIES:
+  - CircleLoadingViewPod (from `../`)
+
+EXTERNAL SOURCES:
+  CircleLoadingViewPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CircleLoadingViewPod: fcde6c8a5fb297da11dc7d0ed59ba30cebd99bb2
+
+PODFILE CHECKSUM: 7f5b94972b8cac004f606e20bda06b4b8506912d
+
+COCOAPODS: 1.11.2

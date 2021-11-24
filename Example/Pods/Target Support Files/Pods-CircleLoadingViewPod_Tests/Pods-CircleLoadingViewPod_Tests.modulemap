@@ -1,0 +1,6 @@
+framework module Pods_CircleLoadingViewPod_Tests {
+  umbrella header "Pods-CircleLoadingViewPod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

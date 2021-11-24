@@ -1,0 +1,22 @@
+{
+  "name": "CircleLoadingViewPod",
+  "version": "0.1.0",
+  "summary": "A short description of CircleLoadingViewPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/frostmarchesan/CircleLoadingViewPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "frostmarchesan": "55881881+frostmarchesan@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/frostmarchesan/CircleLoadingViewPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CircleLoadingViewPod/Classes/**/*"
+}
